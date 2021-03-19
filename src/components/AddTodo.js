@@ -36,7 +36,7 @@ const AddTodo = () => {
                     myClick={() => {
                         console.log(name);
                         if(name === "" || name === undefined){
-                            notify(false, "Boş todo girişi yapamazsınız. Lütfen geçerli bir todo giriniz...");
+                            notify(false, "You cannot enter empty todo!. Please enter a valid todo.");
                         }
                         else{
                             dispatch(addTodo({
@@ -44,7 +44,7 @@ const AddTodo = () => {
                                 name: name,
                                 date: startDate
                             }))
-                            notify(true, 'Todo başarıyla eklenmiştir...');
+                            notify(true, 'Todo successfully added..');
                             setName('');
                         }
                     }}

@@ -21,7 +21,7 @@ const TodoItem = ({todo}) => {
     let [name, setName] = useState(todo.name);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const [startDate, setStartDate] = useState(new Date());
+    const [startDate, setStartDate] = useState(new Date(todo.date));
     let dispatch = useDispatch();
     return (
         <>
@@ -76,14 +76,14 @@ const TodoItem = ({todo}) => {
                             title="Save Changes"
                             myClick={() => {
                                 if (name === "") {
-                                    notify(false, "Boş todo girişi yapamazsınız. Lütfen geçerli bir todo giriniz...");
+                                    notify(false, "You cannot enter empty todo! Please enter a valid todo.");
                                 } else {
                                     dispatch(updateTodo({
                                         ...todo,
                                         name: name,
                                         date: startDate
                                     }))
-                                    notify(true, "Todo başarıyla güncellendi...");
+                                    notify(true, "Todo updated successfully..");
                                     handleClose();
                                 }
                             }}
@@ -102,13 +102,16 @@ const TodoItem = ({todo}) => {
                     width: 1000px !important;
 
                   }
+
                   .text-muted {
                     color: #B5B5C3 !important;
                   }
+
                   .bullet.bullet-bar {
                     width: 4px;
                     height: auto;
                   }
+
                   .bullet {
                     display: inline-block;
                     background-color: #E4E6EF;
@@ -117,13 +120,16 @@ const TodoItem = ({todo}) => {
                     border-radius: 2rem;
                     margin-left: 1rem;
                   }
+
                   .bg-success {
                     background-color: #3699FF !important;
                   }
+
                   .form-title {
                     font-size: 1.2rem;
                     font-weight: bold;
                   }
+
                   .modal-input {
                     padding: 1rem !important;
                     background: #F3F6F9;
@@ -132,12 +138,14 @@ const TodoItem = ({todo}) => {
                     height: 55px;
                     border-radius: 0.85rem !important;
                   }
+
                   .delete-icon {
                     color: #F64E60 !important;
                     cursor: pointer;
                     padding-right: 2rem;
                     font-size: 2em;
                   }
+
                   .edit-icon {
                     color: #FFA800 !important;
                     cursor: pointer;
