@@ -1,12 +1,9 @@
- https://duyguevrim.github.io/react-todo-app/
+[Click for Live Demo](https://duyguevrim.github.io/react-todo-app/)
  
- https://duyguevrim.medium.com/redux-nedir-reactta-redux-nas%C4%B1l-kullan%C4%B1l%C4%B1r-2fbcec4255db
+[Click for the article about redux](https://duyguevrim.medium.com/redux-nedir-reactta-redux-nas%C4%B1l-kullan%C4%B1l%C4%B1r-2fbcec4255db)
 
 
 ![Demo](https://github.com/duyguevrim/react-todo-app/blob/master/src/assets/todoapp-info.gif)
-![Sayfa Görseli](https://github.com/YemekSepeti-WebAPI-Bootcamp/duyguodabas_todo_app/blob/master/src/assets/ss0.PNG)
-![Sayfa Görseli](https://github.com/YemekSepeti-WebAPI-Bootcamp/duyguodabas_todo_app/blob/master/src/assets/ss1.PNG)
-![Sayfa Görseli](https://github.com/YemekSepeti-WebAPI-Bootcamp/duyguodabas_todo_app/blob/master/src/assets/ss2.PNG)
 
 
 # Getting Started with Create React App
