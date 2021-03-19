@@ -1,6 +1,6 @@
-[Click for Live Demo](https://duyguevrim.github.io/react-todo-app/)
+> [Click for Live Demo](https://duyguevrim.github.io/react-todo-app/)
  
-[Click for the article about redux](https://duyguevrim.medium.com/redux-nedir-reactta-redux-nas%C4%B1l-kullan%C4%B1l%C4%B1r-2fbcec4255db)
+> [Click for the article about Redux](https://duyguevrim.medium.com/redux-nedir-reactta-redux-nas%C4%B1l-kullan%C4%B1l%C4%B1r-2fbcec4255db)
 
 
 ![Demo](https://github.com/duyguevrim/react-todo-app/blob/master/src/assets/todoapp-info.gif)
